@@ -1,0 +1,510 @@
+/* fonts */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/lato.regular.otf);
+  }
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/fonts/lato.medium.otf);
+  }
+  @font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/fonts/lato.semibold.otf);
+  }
+  @font-face {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Georgia\ Regular\ font.otf);
+  }
+  @font-face {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/georgia\ bold.otf);
+  }
+  @font-face {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 900;
+    src: url(/fonts/Metropolis-Black.otf);
+  }
+  html,
+  body {
+    margin: 0px;
+    max-width: 1920px;
+    max-height: 5671px;
+  }
+  a {
+    text-decoration: none;
+    color: #292929;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px auto;
+  }
+  ._container {
+    width: 1368px;
+    height: 980px;
+  }
+  /* ------------------------------------------- */
+  /* ------------------HEADER----------------- */
+  /* HEADER NAV-BAR */
+  .header {
+    width: 1920px;
+    height: 980px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    margin-left: 275px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+  }
+  .header_logo {
+    width: 79.57px;
+    height: 23.04px;
+  }
+  .menu-item {
+    display: flex;
+    white-space: nowrap;
+    width: 557px;
+    height: 24px;
+    margin-left: 172px;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .menu-list-item {
+    padding-left: 72px;
+  }
+  .menu-btn {
+    display: flex;
+    white-space: nowrap;
+    margin-left: 283px;
+    width: 277px;
+    height: 51px;
+  }
+  .btn-sign {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+  }
+  .btn-sign-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .btn-trial {
+    align-items: center;
+    padding: 13px 50px;
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+  }
+  .btn-trial-text {
+    color: white;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  /* ------------------------------------------- */
+  /* HEADER CONTENT&HEADLINE */
+  .header-content {
+    position: relative;
+  }
+  
+  .header-content img {
+    position: absolute;
+    width: 1920px;
+    height: 895px;
+    object-fit: cover;
+  }
+  .header-headline {
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 175px;
+    margin-left: 275px;
+    width: 440px;
+    height: 384px;
+  }
+  .title {
+    font-family: "Georgia";
+    font-weight: 700;
+    line-height: 74px;
+    color: #01996d;
+  }
+  .title h1 {
+    font-size: 65px;
+  }
+  .subtitle {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+  }
+  .btn-header-content {
+    display: flex;
+    margin-top: 18px;
+    width: 227px;
+    height: 65px;
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+  }
+  .btn-header-content a {
+    padding: 20px 50px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+  }
+  /* ------------------HEADER END----------------- */
+  /* ------------------------------------------- */
+  /* --------------------MAIN------------------- */
+  /* HOW IT WORKS BLOCK */
+  .main {
+    margin-top: 169px;
+  }
+  .howtoworks {
+    margin: 0px 275px 51px 254px;
+    width: 1368px;
+    height: 1555px;
+  }
+  .hwtw-title-block {
+    margin-bottom: 172px;
+    position: absolute;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #424242;
+  }
+  .hwtw-title {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .hwtw-title-two h1 {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+    color: #01996d;
+  }
+  .hwtw-subtitle {
+    margin-left: 136px;
+    margin-top: 212px;
+    margin-right: 254px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .card01-back-num {
+    position: absolute;
+    width: 202.94px;
+    height: 225px;
+    left: -132.7px;
+    top: -284px;
+  }
+  .card01-back-num p {
+    font-family: "Georgia";
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 225px;
+    color: rgba(1, 153, 109, 0.2);
+    text-align: center;
+  }
+  .card01 {
+    position: relative;
+    margin-top: 52px;
+  }
+  .card02-back-num {
+    position: absolute;
+    width: 202.94px;
+    height: 225px;
+    left: -132.7px;
+    top: -284px;
+  }
+  .card02-back-num p {
+    font-family: "Georgia";
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 225px;
+    color: rgba(1, 153, 109, 0.2);
+    text-align: center;
+  }
+  .card02 {
+    position: relative;
+    margin-top: 339px;
+    margin: 339px 0px 0px 95px;
+  }
+  .card03-back-num {
+    position: absolute;
+    width: 202.94px;
+    height: 225px;
+    left: -132.7px;
+    top: -284px;
+  }
+  .card03-back-num p {
+    font-family: "Georgia";
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 225px;
+    color: rgba(1, 153, 109, 0.2);
+    text-align: center;
+  }
+  .card03 {
+    position: relative;
+    margin-top: 54px;
+    margin-left: 95px;
+    margin-right: 277px;
+  }
+  ._card-container {
+    width: 390px;
+    height: 937px;
+  }
+  .card-title {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 55px;
+  }
+  .card-subtitle {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+    margin-bottom: 60px;
+  }
+  .card-image {
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+  }
+  .card-image img {
+    width: 390px;
+    height: 492px;
+  }
+  /* ------------------------------------------- */
+  /* SUCCESS STORY BLOCK */
+  .success-story {
+    position: relative;
+    display: flex;
+  
+    white-space: nowrap;
+  }
+  .success-story-bg {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    width: 1920px;
+    height: 922px;
+    background: #245852;
+  }
+  .success-story-title-block {
+    position: relative;
+    margin: 310px 31.39px 382px 185.59px;
+  }
+  .success-story-title h2 {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+    color: white;
+  }
+  .success-story-description p {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39px;
+    color: white;
+  }
+  .success-story-btn {
+    display: flex;
+    position: relative;
+    margin-top: 57px;
+    width: 243px;
+    height: 65px;
+    background-color: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+  }
+  .success-story-btn a {
+    padding: 20px 50px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+  }
+  .success-story-video-template {
+    position: relative;
+    margin: 229px 208.73px 176.89px 31.39px;
+  }
+  /* ----------------------------------------------- */
+  /* OUR PRODUCT BLOCK */
+  .our-product {
+    display: flex;
+    margin: 104px 275px 168px 275px;
+  }
+  .our-product-img {
+    margin: 104px 86.63px 242.74px 86.63px;
+    width: 638.69px;
+    height: 573.26px;
+  }
+  .big-img-customer {
+    position: absolute;
+    width: 638.69px;
+    height: 573.26px;
+  }
+  .our-product-title-block {
+    white-space: nowrap;
+    margin-top: 104px;
+    width: 584px;
+    height: 413px;
+  }
+  .our-product-mini-title {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.25px;
+    color: #424242;
+  }
+  .our-product-big-title {
+    margin-top: 10px;
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78.5px;
+    color: #01996d;
+  }
+  .our-product-description {
+    margin-top: 20px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31.4px;
+    color: #484848;
+  }
+  .our-product-btn {
+    display: flex;
+    margin-top: 40px;
+    width: 227px;
+    height: 65px;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    background: #01996d;
+  }
+  .our-product-btn a {
+    padding: 20px 50px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+  }
+  .card-customized-for {
+    position: relative;
+    width: 600px;
+    height: 318px;
+    left: -459px;
+    top: 429px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  .card-customer-title {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  
+  .customer-about-name {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .customer-about-contents {
+    font-family: "Avenir";
+    font-weight: 900;
+    font-size: 16px;
+  }
+  
+  .list-customer-contents-item {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    margin-left: 51px;
+    white-space: nowrap;
+    width: 117.35px;
+    height: 16.46px;
+  }
+  /* FOOOTER */
+  .footer {
+    width: 1920px;
+    height: 654px;
+    background-color: #245852;
+  }
+  ._container-footer {
+    width: 1920px;
+    height: 654px;
+  }
+  .footer-content {
+    display: flex;
+  }
+  .footer-item {
+    margin-left: 275px;
+    margin-top: 95px;
+  }
+  .footer-item p {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: white;
+  }
+  .footer-item a {
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+  }
+  
